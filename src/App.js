@@ -1,6 +1,5 @@
 import "./App.css";
 import { useState } from "react";
-
 function App() {
   const [xIsNext, setXIsNext] = useState(true);
   const [squares, setSquares] = useState(Array(9).fill(null));
@@ -47,8 +46,8 @@ function App() {
       ) {
         return squares[a];
       }
-      return null;
     }
+    return null;
   }
 
   return (
